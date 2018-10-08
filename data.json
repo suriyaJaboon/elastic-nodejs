@@ -1,0 +1,133 @@
+{
+    "index": "dataconnection",
+    "type": "google",
+    "id": 20181001,
+    "message": "success",
+    "data": {
+        "report_data": {
+            "reports": [
+                {
+                    "columnHeader": {
+                        "dimensions": [
+                            "ga:browser",
+                            "ga:country"
+                        ],
+                        "metricHeader": {
+                            "metricHeaderEntries": [
+                                {
+                                    "name": "ga:pageviews",
+                                    "type": "INTEGER"
+                                },
+                                {
+                                    "name": "ga:sessions",
+                                    "type": "INTEGER"
+                                }
+                            ]
+                        }
+                    },
+                    "data": {
+                        "rows": [
+                            {
+                                "dimensions": [
+                                    "Chrome",
+                                    "Thailand"
+                                ],
+                                "metrics": [
+                                    {
+                                        "values": [
+                                            "35",
+                                            "11"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "dimensions": [
+                                    "Chrome",
+                                    "United States"
+                                ],
+                                "metrics": [
+                                    {
+                                        "values": [
+                                            "6",
+                                            "3"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "dimensions": [
+                                    "Edge",
+                                    "Thailand"
+                                ],
+                                "metrics": [
+                                    {
+                                        "values": [
+                                            "2",
+                                            "1"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "dimensions": [
+                                    "Firefox",
+                                    "Thailand"
+                                ],
+                                "metrics": [
+                                    {
+                                        "values": [
+                                            "2",
+                                            "1"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "dimensions": [
+                                    "Opera",
+                                    "Thailand"
+                                ],
+                                "metrics": [
+                                    {
+                                        "values": [
+                                            "2",
+                                            "1"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "totals": [
+                            {
+                                "values": [
+                                    "47",
+                                    "17"
+                                ]
+                            }
+                        ],
+                        "rowCount": 5,
+                        "minimums": [
+                            {
+                                "values": [
+                                    "2",
+                                    "1"
+                                ]
+                            }
+                        ],
+                        "maximums": [
+                            {
+                                "values": [
+                                    "35",
+                                    "11"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "create_date": 1538539148908,
+        "model_name": "test"
+    }
+}

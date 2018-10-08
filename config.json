@@ -1,0 +1,4 @@
+{
+    "elastic": ["192.168.10.237:9200"],
+    "elasticPro": [{"hots": "elastic:changeme@localhost:9200", "log": "trace"}]
+}
